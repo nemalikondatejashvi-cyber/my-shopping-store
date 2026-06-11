@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online shopping</title>
+    </head>
+    <style>
+        h1 {
+            font-size: 80px;
+            color:rgb(85, 2, 85);
+            text-align: center;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 25px;
+            font-family: Harlow Solid Italic;
+            font-style: oblique;
+            box-sizing: border-box;    
+        }
+        body{
+        background-color: rgb(244, 232, 232);
+        padding: 20px;
+        
+        }
+        .product button:hover{
+            background-color: rgb(107, 196, 226);
+            color: white;
+            cursor: pointer;
+           
+        }
+        .grid{
+             display: grid;
+             grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+            gap: 20px;
+        }
+        
+        .product img{
+            width: 250px;
+            height: 250px;
+            box-shadow: 3px 0px 5px grey;
+            padding: 20px;
+        }
+        p{
+            color: rgb(47, 106, 47);
+        }
+    </style>
+    <body>
+        <h1>Shopli Store</h1> <br> <br>
+        <nav class="grid">
+         <div class="product">
+            <img src="earrings.png">
+            <h2>Silver Earrings</h2>
+            <p><b>Price:&#8377;220</b></p>
+            <button type="button">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="the secret.png">
+            <h2>The  Secret Book</h2>
+            <p> <b>Price:&#8377;300 </b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         <div class="product">
+            <img src="plant.png">
+            <h2>Tropical Plant</h2>
+            <p><b>Price:&#8377;200</b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         <div class="product">
+            <img src="bingo.png">
+            <h2>Bingo Violet Color</h2>
+            <p><b>Price:&#8377;40</b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         <div class="product">
+            <img src="geometry-box.png">
+            <h2>Geometry Box</h2>
+            <p> <b>Price:&#8377;280 </b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         <div class="product">
+            <img src="shampoo.png">
+            <h2>Clinic Plus Shampoo</h2>
+            <p><b>Price:&#8377;250</b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         <div class="product">
+            <img src="the book of lost names.png">
+            <h2>The Book</h2>
+            <p> <b>Price:&#8377;200 </b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         <div class="product">
+            <img src="watch.png">
+            <h2>Women-Watch</h2>
+            <p> <b>Price:&#8377;620</b></p>
+            <button type="button">Buy Now</button>
+        </div>
+         </div>
+         <div class="product">
+            <img src="the money.png">
+            <h2>The Psychology of Money Book</h2>
+            <p> <b>Price:&#8377;320</b></p>
+            <button type="button">Buy Now</button>
+        </div>
+        </nav>
+        
+    </body>
+</html>
